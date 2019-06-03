@@ -9,6 +9,10 @@ body {
     margin-bottom: 2.5%;
 }
 
+h2 {
+    color: teal;
+}
+
 #index {
     font-weight: bold;
 }
@@ -24,15 +28,20 @@ body {
     margin-left: 14.158636%;
     /*background-color: white!important;*/
     border-bottom: 2px solid #4aaaa5;
-    background-image: url(bokeh background p1 3.jpg);
+    background-image: url(Bubbles.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-weight: bold;
-    line-height: 180%;
+    line-height: 200%;
+}
+
+.display-4 {
+    color: white;
 }
 
 #paragraph {
     text-indent: 5em;
     margin-top: 5%;
+    color: midnightblue;
 }
 
