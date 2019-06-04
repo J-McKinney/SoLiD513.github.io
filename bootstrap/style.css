@@ -10,7 +10,9 @@ body {
 }
 
 h2 {
-    color: teal;
+    color: white;
+    background-color: teal;
+    padding: 2%;
 }
 
 #index {
