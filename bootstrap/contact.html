@@ -16,26 +16,40 @@
 <body background="DJBoard.jpg">
     <div>
         <header>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-2">
-                    </div>
-                    <div class="col-md-3">
-                        <h2>Jesse McKinney</h2>
-                    </div>
-                    <div class="col-md-3">
-                    </div>
-                    <div class="col-md-3">
-                        <div id="index">
-                            <a style="text-decoration:none;" href="index.html">About</a>&nbsp;|
-                            <a style="text-decoration:none;" href="portfolio.html">Portfolio</a>&nbsp;|
-                            <a style="text-decoration:none;" href="contact.html">Contact</a>
-                        </div>
-                        <div class="col-md-1">
-                        </div>
-                    </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Jesse McKinney</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="portfolio.html">Portfolio <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+            </nav>
         </header>
     </div>
 
@@ -47,9 +61,11 @@
     GoogleFonts
     psuedo-classes: default, hover, focus, active
     Use three `@media screen` tags, each with one of these `max-width`s: `980px`, `768px` and `640px`
-    Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site _(Hint: Check out the Bootstrap documentation)_
+    Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site _(Hint: Check out the
+    Bootstrap documentation)_
     Be aware of bootstrap breakpoints!!!
     create personal boilerplate!!!
 </footer>
 GTATL2019, 02-css-bootstrap, videoguide.md
+
 </html>
