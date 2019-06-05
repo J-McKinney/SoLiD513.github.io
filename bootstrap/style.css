@@ -3,29 +3,12 @@ body {
 	background-repeat: no-repeat;
 }
 
-.container-fluid {
-    background-color: white;
-    padding: 2%;
-    margin-bottom: 2.5%;
-}
-
-h2 {
-    color: white;
-    background-color: teal;
-    padding: 2%;
-}
-
 #index {
     font-weight: bold;
 }
 
-.container {
-    background-color: white;
-    margin-left: 14.158636%;
-    margin-right: 14.158636%;
-}
-
 .jumbotron {
+    margin-top: 5%;
     margin-right: 14.158636%;
     margin-left: 14.158636%;
     /*background-color: white!important;*/
@@ -37,7 +20,7 @@ h2 {
     line-height: 200%;
 }
 
-.display-4 {
+h1 {
     color: white;
 }
 
